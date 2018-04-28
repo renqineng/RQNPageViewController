@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04DEC7AC2094890900684670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEC7AB2094890900684670 /* AppDelegate.m */; };
-		04DEC7AF2094890900684670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEC7AE2094890900684670 /* ViewController.m */; };
-		04DEC7B22094890900684670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DEC7B02094890900684670 /* Main.storyboard */; };
 		04DEC7B42094890900684670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DEC7B32094890900684670 /* Assets.xcassets */; };
-		04DEC7B72094890900684670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DEC7B52094890900684670 /* LaunchScreen.storyboard */; };
 		04DEC7BA2094890900684670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEC7B92094890900684670 /* main.m */; };
+		04DEC7C5209489BD00684670 /* RQNPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEC7C4209489BD00684670 /* RQNPageViewController.m */; };
+		04DEC7C9209489F800684670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEC7C8209489F800684670 /* AppDelegate.m */; };
+		6B5292C758343CE9F3C45BF3 /* libPods-RQNPageViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84068C9B2B8BC9E36DDA7C3 /* libPods-RQNPageViewController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04DEC7A72094890900684670 /* RQNPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQNPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04DEC7AA2094890900684670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04DEC7AB2094890900684670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04DEC7AD2094890900684670 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04DEC7AE2094890900684670 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04DEC7B12094890900684670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04DEC7B32094890900684670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04DEC7B62094890900684670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DEC7B82094890900684670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DEC7B92094890900684670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DEC7C3209489BD00684670 /* RQNPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQNPageViewController.h; sourceTree = "<group>"; };
+		04DEC7C4209489BD00684670 /* RQNPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQNPageViewController.m; sourceTree = "<group>"; };
+		04DEC7C7209489F800684670 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04DEC7C8209489F800684670 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23029D36F8DA4E74B6CFEBD5 /* Pods-RQNPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQNPageViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RQNPageViewController/Pods-RQNPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		9E472080BD7CFAF150DC1831 /* Pods-RQNPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQNPageViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-RQNPageViewController/Pods-RQNPageViewController.release.xcconfig"; sourceTree = "<group>"; };
+		D84068C9B2B8BC9E36DDA7C3 /* libPods-RQNPageViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RQNPageViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5292C758343CE9F3C45BF3 /* libPods-RQNPageViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +45,8 @@
 			children = (
 				04DEC7A92094890900684670 /* RQNPageViewController */,
 				04DEC7A82094890900684670 /* Products */,
+				C537F951BCD2C75A1E78BC6C /* Pods */,
+				AC41361E6E08D570DE4C9FCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +61,40 @@
 		04DEC7A92094890900684670 /* RQNPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				04DEC7AA2094890900684670 /* AppDelegate.h */,
-				04DEC7AB2094890900684670 /* AppDelegate.m */,
-				04DEC7AD2094890900684670 /* ViewController.h */,
-				04DEC7AE2094890900684670 /* ViewController.m */,
-				04DEC7B02094890900684670 /* Main.storyboard */,
+				04DEC7C3209489BD00684670 /* RQNPageViewController.h */,
+				04DEC7C4209489BD00684670 /* RQNPageViewController.m */,
+				04DEC7C6209489F800684670 /* RQNPageViewControllerExample */,
 				04DEC7B32094890900684670 /* Assets.xcassets */,
-				04DEC7B52094890900684670 /* LaunchScreen.storyboard */,
 				04DEC7B82094890900684670 /* Info.plist */,
 				04DEC7B92094890900684670 /* main.m */,
 			);
 			path = RQNPageViewController;
+			sourceTree = "<group>";
+		};
+		04DEC7C6209489F800684670 /* RQNPageViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				04DEC7C7209489F800684670 /* AppDelegate.h */,
+				04DEC7C8209489F800684670 /* AppDelegate.m */,
+			);
+			path = RQNPageViewControllerExample;
+			sourceTree = "<group>";
+		};
+		AC41361E6E08D570DE4C9FCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84068C9B2B8BC9E36DDA7C3 /* libPods-RQNPageViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C537F951BCD2C75A1E78BC6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23029D36F8DA4E74B6CFEBD5 /* Pods-RQNPageViewController.debug.xcconfig */,
+				9E472080BD7CFAF150DC1831 /* Pods-RQNPageViewController.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +104,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04DEC7BD2094890900684670 /* Build configuration list for PBXNativeTarget "RQNPageViewController" */;
 			buildPhases = (
+				64E57E4BE1890B326BC78C86 /* [CP] Check Pods Manifest.lock */,
 				04DEC7A32094890900684670 /* Sources */,
 				04DEC7A42094890900684670 /* Frameworks */,
 				04DEC7A52094890900684670 /* Resources */,
@@ -102,7 +129,7 @@
 				TargetAttributes = {
 					04DEC7A62094890900684670 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -129,45 +156,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DEC7B72094890900684670 /* LaunchScreen.storyboard in Resources */,
 				04DEC7B42094890900684670 /* Assets.xcassets in Resources */,
-				04DEC7B22094890900684670 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64E57E4BE1890B326BC78C86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RQNPageViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04DEC7A32094890900684670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DEC7AF2094890900684670 /* ViewController.m in Sources */,
 				04DEC7BA2094890900684670 /* main.m in Sources */,
-				04DEC7AC2094890900684670 /* AppDelegate.m in Sources */,
+				04DEC7C5209489BD00684670 /* RQNPageViewController.m in Sources */,
+				04DEC7C9209489F800684670 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		04DEC7B02094890900684670 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04DEC7B12094890900684670 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04DEC7B52094890900684670 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04DEC7B62094890900684670 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04DEC7BB2094890900684670 /* Debug */ = {
@@ -199,7 +226,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -218,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -254,7 +281,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -267,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,26 +303,34 @@
 		};
 		04DEC7BE2094890900684670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23029D36F8DA4E74B6CFEBD5 /* Pods-RQNPageViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RQNPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renqineng.RQNPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		04DEC7BF2094890900684670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E472080BD7CFAF150DC1831 /* Pods-RQNPageViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RQNPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renqineng.RQNPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
